@@ -8,3 +8,5 @@ colorscheme summerfruit256
 "set mouse=a
 set clipboard=unnamedplus
 execute pathogen#infect()
+let g:Tex_GotoError=0
+
