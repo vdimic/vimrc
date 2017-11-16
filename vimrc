@@ -4,6 +4,8 @@ set shiftwidth=4
 set hidden
 syntax on
 
+set encoding=utf-8
+
 set t_Co=256
 "colorscheme my_delek
 colorscheme summerfruit256
