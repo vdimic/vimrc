@@ -26,6 +26,12 @@ set laststatus=2
 let g:airline_theme='papercolor'
 let g:airline_powerline_fonts = 1
 
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+
+
 inoremap <C-b> <esc>:w<CR>:make<CR>
 noremap <C-b> :w<CR>:make<CR>
 

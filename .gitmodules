@@ -16,3 +16,6 @@
 [submodule "colors/papercolor-theme"]
 	path = colors/papercolor-theme
 	url = https://github.com/NLKNguyen/papercolor-theme.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
