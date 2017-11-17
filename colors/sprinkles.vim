@@ -1,0 +1,1 @@
+../bundle/sprinkles/colors/sprinkles.vim
