@@ -22,3 +22,6 @@
 [submodule "bundle/sprinkles"]
 	path = bundle/sprinkles
 	url = https://github.com/ajgrf/sprinkles
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
