@@ -18,6 +18,10 @@ colorscheme PaperColor
 set cursorline
 "set cursorcolumn
 
+" Hightlight trailing whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
 "set mouse=a
 set clipboard=unnamedplus
 execute pathogen#infect()
