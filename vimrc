@@ -11,8 +11,9 @@ set encoding=utf-8
 
 set t_Co=256
 "colorscheme my_delek
-colorscheme summerfruit256
+"colorscheme summerfruit256
 colorscheme PaperColor
+"colorscheme sprinkles
 
 set cursorline
 "set cursorcolumn
