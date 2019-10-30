@@ -43,3 +43,5 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 inoremap <C-b> <esc>:w<CR>:make<CR>
 noremap <C-b> :w<CR>:make<CR>
 
+"clang_complete
+let g:clang_library_path='/usr/lib64/libclang.so.3.8'
