@@ -26,7 +26,7 @@ match ExtraWhitespace /\s\+$/
 set clipboard=unnamedplus
 execute pathogen#infect()
 
-autocmd BufEnter *.tex setlocal spelllang=en_gb spell
+autocmd BufEnter *.tex setlocal spelllang=en_us spell
 
 let g:Tex_GotoError=0
 
