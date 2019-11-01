@@ -41,6 +41,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
 
 inoremap <C-b> <esc>:w<CR>:make<CR>
 noremap <C-b> :w<CR>:make<CR>
